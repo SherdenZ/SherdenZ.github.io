@@ -43,3 +43,19 @@ Novice frontend-developer without technical education, easy to learn, responsibl
 
 --- 
 
+### Code examples:
+  #### Game creation - Snake, by video tutorials: 
+```javascript
+	if (snakeBody[0].getAttribute('posX') == mouse.getAttribute('posX') && snakeBody[0]
+	.getAttribute('posY') == mouse.getAttribute('posY')) {
+	  mouse.classList.remove('mouse');
+	  let a = snakebody[snakeBody.length - 1].getAttribute('posX');
+	  let b = snakebody[snakeBody.length - 1].getAttribute('posY');
+	  snakeBody.push(document.querySelector('[posX = "' + a + '"][posY = "' + b + '"]'));
+	  createMouse();
+	}
+```
+[«Змейка» на JavaScript для новичков](https://www.youtube.com/watch?v=1bulpuupMkk&t=805s "Source code")
+
+---
+
