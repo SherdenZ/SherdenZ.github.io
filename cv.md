@@ -39,7 +39,7 @@ Novice frontend-developer without technical education, easy to learn, responsibl
 4. [Yandex praktikum](https://praktikum.yandex.ru/profile/frontend-developer/)
 5. [Hexlet](https://ru.hexlet.io/)
 6. [Modern JavaScript tutorial](https://learn.javascript.ru/)
-7. Training videos on Youtube
+7. Training videos on [Youtube](https://www.youtube.com/).
 
 --- 
 
