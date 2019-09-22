@@ -21,11 +21,11 @@ Novice frontend-developer without technical education, easy to learn, responsibl
 
 ### Technical Skill:
 * Programming Languages:
-    1. HTML+CSS/SCSS;
-    2. Basic JS.
+1. HTML+CSS/SCSS;
+2. Basic JS.
 * Frameworks:
-    1. Jquery;
-    2. Node.js.
+1. Jquery;
+2. Node.js.
 * Tools:
     - IDE: Atom, Sublime Text, VS Code, WebStorm;
     - Graphic Editor: Corel Draw, Adobe Photoshop, Adobe Illustrator;
@@ -37,14 +37,14 @@ Novice frontend-developer without technical education, easy to learn, responsibl
 2. [Codecademy](https://www.codecademy.com/) [Profile](https://www.codecademy.com/profiles/zuhioSherden4282567802)
 3. [Htmlacademy](https://htmlacademy.ru/) [Profile](https://htmlacademy.ru/profile/id1196059)
 4. [Yandex praktikum](https://praktikum.yandex.ru/profile/frontend-developer/)
-5. [hexlet](https://ru.hexlet.io/)
+5. [Hexlet](https://ru.hexlet.io/)
 6. [Modern JavaScript tutorial](https://learn.javascript.ru/)
 7. Training videos on Youtube
 
 --- 
 
 ### Code examples:
-  ##### Game creation - Snake, by video tutorials: 
+  #### Game creation - Snake, by video tutorials: 
 ```javascript
 	if (snakeBody[0].getAttribute('posX') == mouse.getAttribute('posX') && snakeBody[0]
 	.getAttribute('posY') == mouse.getAttribute('posY')) {
