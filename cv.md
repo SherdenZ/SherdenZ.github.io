@@ -32,7 +32,7 @@ Novice frontend-developer without technical education, easy to learn, responsibl
     - Version Control: Git (GitHub/GitLab (Git Extensions));
 
 ### Experience: 
- ##### Selfeducation:
+ #### Selfeducation:
 1. [Freecodecamp](https://www.freecodecamp.org/)
 2. [Codecademy](https://www.codecademy.com/) [Profile](https://www.codecademy.com/profiles/zuhioSherden4282567802)
 3. [Htmlacademy](https://htmlacademy.ru/) [Profile](https://htmlacademy.ru/profile/id1196059)
