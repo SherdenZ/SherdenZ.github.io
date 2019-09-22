@@ -1,4 +1,4 @@
-# Resume
+﻿# Resume
 
 ### Name: Bodalev Pavel
 
@@ -58,4 +58,6 @@ Novice frontend-developer without technical education, easy to learn, responsibl
 [«Змейка» на JavaScript для новичков](https://www.youtube.com/watch?v=1bulpuupMkk&t=805s "Source code")
 
 ---
+
+
 
