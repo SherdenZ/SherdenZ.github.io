@@ -12,33 +12,35 @@
 
 
 <body>
-
-    <h1>Resume</h1>
-    <H3>Name:</H3> <strong>Bodalev Pavel</strong>
-
-    <h3>Contact Info:</h3>
-    <ul>
-        <li> <strong>Ph.: </strong> +7912--510--</li>
-        <li> <strong>Email: </strong> Zuhio76@gmail.com</li>
-        <li> <strong>Skype: </strong> helion47</li>
-        <ul>
+    <header class="persona">
+        <h1>Resume</h1>
+        <section .class="name">
+            <H3>Name:</H3>
+            <p><strong>Bodalev Pavel</strong></p>
+            <img class="avatar" src="./assets/img/Rock_Slime.png" alt="GitHub Avatar">
+        </section>
+        <section class="contract">
+            <h3>Contact Info:</h3>
+            <ul>
+                <li> <strong class="phone">Ph.: </strong> +7912--510-- </li>
+                <li> <strong>Email: </strong>Zuhio76@gmail.com </li>
+                <li> <strong>Skype: </strong> helion47 </li>
+            </ul>
+    </header>
+    <main .class="education">
+        <section class="knowledge">
             <H3>Education: </H3>
             <ol>
                 <li>Basic learning without a teacher</li>
                 <li>Currently, training courses from <a href="https://rs.school">The Rolling Scopes school</a></li>
             </ol>
-
-
             <h3>English:</h3>
             <p>A2 level, but currently doing self-training.</p>
-
             <hr>
-
             <h3>Summary of Qualifications:</h3>
             <p>Novice frontend-developer without technical education, easy to learn, responsible, desire to develop, disciplined, calm, free from bad habits, stress-resistant, self-learning in my free time, looking for opportunities to apply and improve
                 my skills in practice.</p>
-
-            <h3>Technical Skill:</h3> <br>
+            <h3>Technical Skill:</h3>
             <ul>
                 <li>Programming Languages:
                     <ol>
@@ -63,38 +65,42 @@
 
                 <li>Version Control: Git (GitHub/GitLab (Git Extensions));</li>
             </ul>
-
+        </section>
+        <section class="experience">
             <h3>Experience: </h3>
-            <h4>Selfeducation:</h4>
+            <h4>Self education:</h4>
             <ol>
-                <li> <a href="https://www.freecodecamp.org/">Freecodecamp</a></li>
-                <li> <a href="https://www.codecademy.com/">Codecademy</a> <a href="https://www.codecademy.com/profiles/zuhioSherden4282567802">Profile</a></li>
-                <li> <a href="https://htmlacademy.ru/">Htmlacademy</a> <a href="https://htmlacademy.ru/profile/id1196059">Profile</a> </li>
+                <li> <a href="https://www.freecodecamp.org/">Free code camp</a></li>
+                <li> <a href="https://www.codecademy.com/">Code cademy</a> <a href="https://www.codecademy.com/profiles/zuhioSherden4282567802">Profile</a></li>
+                <li> <a href="https://htmlacademy.ru/">Html academy</a> <a href="https://htmlacademy.ru/profile/id1196059">Profile</a> </li>
                 <li> <a href="https://praktikum.yandex.ru/profile/frontend-developer/">Yandex praktikum</a></li>
                 <li> <a href="https://ru.hexlet.io">Hexlet</a></li>
                 <li> <a href="https://learn.javascript.ru/">Modern JavaScript tutorial</a)</li>
                 <li>Training videos on <a href="">Youtube</a> </li>
             </ol>
             <hr>
-
+        </section>
+        <section class="code-example">
             <h3>Code examples:</h3>
             <h4>Game creation - Snake, by video tutorials:</h4>
-            <pre> javascript
-	if (snakeBody[0].getAttribute('posX') == mouse.getAttribute('posX') && snakeBody[0]
-	.getAttribute('posY') == mouse.getAttribute('posY')) {
-	  mouse.classList.remove('mouse');
-	  let a = snakebody[snakeBody.length - 1].getAttribute('posX');
-	  let b = snakebody[snakeBody.length - 1].getAttribute('posY');
-	  snakeBody.push(document.querySelector('[posX = "' + a + '"][posY = "' + b + '"]'));
-	  createMouse();
-	}
-</pre>
+            <article>
+                <code>
+                <span class="red">if</span> (snakeBody[<span class="blue">0</span>].<span class="blue">getAttribute</span>('posX') <span class="red">==</span> mouse.<span class="blue">getAttribute</span>('posX') <span class="red">&&</span> snakeBody[
+                <span
+                    class="blue">0</span>]<br> .
+                    <span class="blue">getAttribute</span>('posY') <span class="red">==</span> mouse.<span class="blue">getAttribute</span>('posY')) {<br> mouse.classList.
+                    <span class="blue">remove</span>('mouse');<br>
+                    <span class="red">let</span> a <span class="blue">=</span> snakebody[snakeBody.<span class="blue">length</span> <span class="red">-</span> <span class="blue">1</span>].<span class="blue">getAttribute</span>('posX');<br>
+                    <span class="red">let</span> b <span class="blue">=</span> snakebody[snakeBody.<span class="blue">length</span> <span class="red">-</span> <span class="blue">1</span>].<span class="blue">getAttribute</span>('posY');<br> snakeBody.
+                    <span class="blue">push</span>(<span class="blue">document</span>.<span class="blue">querySelector</span>('[posX = "' <span class="red">+</span> a <span class="red">+</span> '"][posY = "' <span class="red">+</span> b <span class="red">+</span>                    '"]'));<br>
+                    <span class="purple">createMouse</span>();<br> } <br><br>
+                </code>
+            </article>
             <a href="https://www.youtube.com/watch?v=1bulpuupMkk&t=805s" title="Source code">«Змейка» на JavaScript для новичков</a>
-            <a href=""></a>
 
             <hr>
-
-
+        </section>
+    </main>
 </body>
 
 </html>
